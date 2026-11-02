@@ -1,0 +1,8 @@
+
+{
+  "service": "BTLB Feed Monitor",
+  "schemaVersion": 1,
+  "status": "CONNECTIVITY_TEST",
+  "monitoredArticles": 50,
+  "readOnly": true
+}
