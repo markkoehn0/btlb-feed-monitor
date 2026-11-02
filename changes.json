@@ -1,7 +1,7 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T17:18:45.555Z",
+  "generatedAt": "2026-11-02T17:20:04.066Z",
   "monitoredArticles": 50,
   "pendingCount": 2,
   "pendingReviews": [
