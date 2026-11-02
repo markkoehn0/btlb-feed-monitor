@@ -1,13 +1,13 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T16:44:41.976Z",
+  "generatedAt": "2026-11-02T17:16:45.073Z",
   "monitoredArticles": 50,
-  "pendingCount": 999,
+  "pendingCount": 2,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-8040246204219982292",
-      "title": "Research Explained #17 — How Would We Know Where a Signal Actually Went? — Tracing Light Through Curved Spacetime",
+      "title": "Research Explained #17 ? How Would We Know Where a Signal Actually Went? ? Tracing Light Through Curved Spacetime",
       "url": "https://www.beyond-the-light-barrier.com/2026/10/research-explained-17-how-would-we-know.html",
       "published": "2026-10-31T13:35:03.857-05:00",
       "updated": "2026-10-31T13:35:03.858-05:00",
