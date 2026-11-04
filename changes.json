@@ -1,9 +1,9 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T17:22:30.400Z",
-  "monitoredArticles": 50,
-  "pendingCount": 2,
+  "generatedAt": "2026-11-04T13:33:06.978Z",
+  "monitoredArticles": 53,
+  "pendingCount": 5,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-8040246204219982292",
@@ -26,6 +26,39 @@
       "classification": "MISSED_REVIEW",
       "status": "PENDING",
       "detectedAt": "2026-11-02T16:35:27.092Z"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1879593111044956659",
+      "title": "Research Explained #21 -- When a Simulation Works, What Have We Actually Proven?",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-21-when-simulation.html",
+      "published": "2026-11-04T06:45:24.721-06:00",
+      "updated": "2026-11-04T06:45:24.722-06:00",
+      "fingerprint": "dda77b2739dd09ac98818549cf92f00a509ad42ade06f5a49dcd1de9d06973ab",
+      "classification": "NEW",
+      "status": "PENDING",
+      "detectedAt": "2026-11-04T13:33:06.201Z"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-3697806019943294304",
+      "title": "Research Explained #20 — Can a Light Pulse Arrive Early Without Sending a Message Faster Than Light?",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-20-can-light-pulse.html",
+      "published": "2026-11-03T07:58:10.614-06:00",
+      "updated": "2026-11-03T07:58:10.614-06:00",
+      "fingerprint": "dd757207e76406da9ebefb0688e64fa359e077548eb4370d4d4d9731842e2dc9",
+      "classification": "NEW",
+      "status": "PENDING",
+      "detectedAt": "2026-11-04T13:33:06.202Z"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-2076332398344806775",
+      "title": "Research Explained #19 -- How Would We Know a Message Really Came Through a Spacetime Shortcut?",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-19-how-would-we-know.html",
+      "published": "2026-11-02T12:02:41.949-06:00",
+      "updated": "2026-11-02T12:42:14.232-06:00",
+      "fingerprint": "bccfe8dba39c2a8276cd560785114a0ac2d8eb1c65041b560ac083cbbde8f5bd",
+      "classification": "NEW",
+      "status": "PENDING",
+      "detectedAt": "2026-11-04T13:33:06.203Z"
     }
   ]
 }
