@@ -1,7 +1,7 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T13:33:09.867Z",
+  "generatedAt": "2026-11-07T17:39:32.782Z",
   "lastSuccessfulCheck": "2026-11-07T13:33:08.796Z",
   "monitoredArticles": 55,
   "pendingCount": 7,
@@ -15,7 +15,9 @@
       "fingerprint": "ff2d4478114160615ec299a802a8bdd4d89fdc76ec13c2a1d8a74fb4e50c5f30",
       "classification": "MISSED_REVIEW",
       "status": "PENDING",
-      "detectedAt": "2026-11-02T16:35:27.089Z"
+      "detectedAt": "2026-11-02T16:35:27.089Z",
+      "contentPath": "articles/8040246204219982292/ff2d4478114160615ec299a802a8bdd4d89fdc76ec13c2a1d8a74fb4e50c5f30.json",
+      "contentSha256": "aaca28fa222cf5a30dc22feb72345e47dabdd5ba402d5630a6585a24ee164208"
     },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-321546500909680694",
@@ -26,7 +28,9 @@
       "fingerprint": "34c46c063828b66a250ac08dd5cc241de8bbd30e03cf09389f49ce78467060a2",
       "classification": "MISSED_REVIEW",
       "status": "PENDING",
-      "detectedAt": "2026-11-02T16:35:27.092Z"
+      "detectedAt": "2026-11-02T16:35:27.092Z",
+      "contentPath": "articles/321546500909680694/34c46c063828b66a250ac08dd5cc241de8bbd30e03cf09389f49ce78467060a2.json",
+      "contentSha256": "7f4746f51bea97e653b074392b8532737fe93c8115527174c6e34d24cfdda445"
     },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1879593111044956659",
@@ -37,7 +41,9 @@
       "fingerprint": "dda77b2739dd09ac98818549cf92f00a509ad42ade06f5a49dcd1de9d06973ab",
       "classification": "NEW",
       "status": "PENDING",
-      "detectedAt": "2026-11-04T13:33:06.201Z"
+      "detectedAt": "2026-11-04T13:33:06.201Z",
+      "contentPath": "articles/1879593111044956659/dda77b2739dd09ac98818549cf92f00a509ad42ade06f5a49dcd1de9d06973ab.json",
+      "contentSha256": "04abb04b1e2799e052cbf32a6c7fdfc392d0161171673aec28092822cae31d7f"
     },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-3697806019943294304",
@@ -48,7 +54,9 @@
       "fingerprint": "dd757207e76406da9ebefb0688e64fa359e077548eb4370d4d4d9731842e2dc9",
       "classification": "NEW",
       "status": "PENDING",
-      "detectedAt": "2026-11-04T13:33:06.202Z"
+      "detectedAt": "2026-11-04T13:33:06.202Z",
+      "contentPath": "articles/3697806019943294304/dd757207e76406da9ebefb0688e64fa359e077548eb4370d4d4d9731842e2dc9.json",
+      "contentSha256": "8e6863eab8abc24c098c3d4ea8dc2c96ea67c181cf861d0881a2468ad513d515"
     },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-2076332398344806775",
@@ -59,7 +67,9 @@
       "fingerprint": "bccfe8dba39c2a8276cd560785114a0ac2d8eb1c65041b560ac083cbbde8f5bd",
       "classification": "NEW",
       "status": "PENDING",
-      "detectedAt": "2026-11-04T13:33:06.203Z"
+      "detectedAt": "2026-11-04T13:33:06.203Z",
+      "contentPath": "articles/2076332398344806775/bccfe8dba39c2a8276cd560785114a0ac2d8eb1c65041b560ac083cbbde8f5bd.json",
+      "contentSha256": "43e5c10aaf70c8211950623d078d2b716f2d5e3ba84c7abf0a6950543a2b37ee"
     },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-4274054251979338495",
@@ -70,7 +80,9 @@
       "fingerprint": "026a486e54c81c13776b86edd7a6581dc3ace19d1755d409df2ce8387e53aa33",
       "classification": "NEW",
       "status": "PENDING",
-      "detectedAt": "2026-11-05T18:26:25.089Z"
+      "detectedAt": "2026-11-05T18:26:25.089Z",
+      "contentPath": "articles/4274054251979338495/026a486e54c81c13776b86edd7a6581dc3ace19d1755d409df2ce8387e53aa33.json",
+      "contentSha256": "b53e35c675269f4a1ca2cda1952c97cb34d4b27fda663e7660aaa3f2fbfb7699"
     },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-117840139236241411",
@@ -81,7 +93,9 @@
       "fingerprint": "1a0893ec3f1959c6958937b71a5f917012a6cb7166b2a45bc78f47df94f9b77d",
       "classification": "NEW",
       "status": "PENDING",
-      "detectedAt": "2026-11-07T13:33:07.187Z"
+      "detectedAt": "2026-11-07T13:33:07.187Z",
+      "contentPath": "articles/117840139236241411/1a0893ec3f1959c6958937b71a5f917012a6cb7166b2a45bc78f47df94f9b77d.json",
+      "contentSha256": "4e2bc829964ca4345c809fc07d5d7976d084582f13bd1bc3d4b6a0780749e2f1"
     }
   ]
 }
