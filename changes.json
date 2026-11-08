@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T13:33:06.838Z",
+  "generatedAt": "2026-11-08T16:28:19.473Z",
   "lastSuccessfulCheck": "2026-11-08T13:33:06.346Z",
   "monitoredArticles": 56,
-  "pendingCount": 8,
+  "pendingCount": 7,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-8040246204219982292",
@@ -18,19 +18,6 @@
       "detectedAt": "2026-11-02T16:35:27.089Z",
       "contentPath": "articles/8040246204219982292/ff2d4478114160615ec299a802a8bdd4d89fdc76ec13c2a1d8a74fb4e50c5f30.json",
       "contentSha256": "aaca28fa222cf5a30dc22feb72345e47dabdd5ba402d5630a6585a24ee164208"
-    },
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-321546500909680694",
-      "title": "Research Explained #18 -- Can Two Observers Disagree About Whether a Signal Traveled Faster Than Light?",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-18-can-two-observers.html",
-      "published": "2026-11-01T09:23:56.927-06:00",
-      "updated": "2026-11-01T09:23:56.927-06:00",
-      "fingerprint": "34c46c063828b66a250ac08dd5cc241de8bbd30e03cf09389f49ce78467060a2",
-      "classification": "MISSED_REVIEW",
-      "status": "PENDING",
-      "detectedAt": "2026-11-02T16:35:27.092Z",
-      "contentPath": "articles/321546500909680694/34c46c063828b66a250ac08dd5cc241de8bbd30e03cf09389f49ce78467060a2.json",
-      "contentSha256": "7f4746f51bea97e653b074392b8532737fe93c8115527174c6e34d24cfdda445"
     },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1879593111044956659",
