@@ -1,24 +1,11 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T16:28:19.473Z",
+  "generatedAt": "2026-11-08T16:32:58.208Z",
   "lastSuccessfulCheck": "2026-11-08T13:33:06.346Z",
   "monitoredArticles": 56,
-  "pendingCount": 7,
+  "pendingCount": 6,
   "pendingReviews": [
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-8040246204219982292",
-      "title": "Research Explained #17 — How Would We Know Where a Signal Actually Went? — Tracing Light Through Curved Spacetime",
-      "url": "https://www.beyond-the-light-barrier.com/2026/10/research-explained-17-how-would-we-know.html",
-      "published": "2026-10-31T13:35:03.857-05:00",
-      "updated": "2026-10-31T13:35:03.858-05:00",
-      "fingerprint": "ff2d4478114160615ec299a802a8bdd4d89fdc76ec13c2a1d8a74fb4e50c5f30",
-      "classification": "MISSED_REVIEW",
-      "status": "PENDING",
-      "detectedAt": "2026-11-02T16:35:27.089Z",
-      "contentPath": "articles/8040246204219982292/ff2d4478114160615ec299a802a8bdd4d89fdc76ec13c2a1d8a74fb4e50c5f30.json",
-      "contentSha256": "aaca28fa222cf5a30dc22feb72345e47dabdd5ba402d5630a6585a24ee164208"
-    },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1879593111044956659",
       "title": "Research Explained #21 -- When a Simulation Works, What Have We Actually Proven?",
