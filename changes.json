@@ -1,24 +1,11 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T16:33:06.362Z",
+  "generatedAt": "2026-11-08T16:33:10.108Z",
   "lastSuccessfulCheck": "2026-11-08T13:33:06.346Z",
   "monitoredArticles": 56,
-  "pendingCount": 4,
+  "pendingCount": 3,
   "pendingReviews": [
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1879593111044956659",
-      "title": "Research Explained #21 -- When a Simulation Works, What Have We Actually Proven?",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-21-when-simulation.html",
-      "published": "2026-11-04T06:45:24.721-06:00",
-      "updated": "2026-11-04T06:45:24.722-06:00",
-      "fingerprint": "dda77b2739dd09ac98818549cf92f00a509ad42ade06f5a49dcd1de9d06973ab",
-      "classification": "NEW",
-      "status": "PENDING",
-      "detectedAt": "2026-11-04T13:33:06.201Z",
-      "contentPath": "articles/1879593111044956659/dda77b2739dd09ac98818549cf92f00a509ad42ade06f5a49dcd1de9d06973ab.json",
-      "contentSha256": "04abb04b1e2799e052cbf32a6c7fdfc392d0161171673aec28092822cae31d7f"
-    },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-4274054251979338495",
       "title": "Research Explained #22 -- What Would It Take to Detect a Tiny Distortion in Spacetime?",
