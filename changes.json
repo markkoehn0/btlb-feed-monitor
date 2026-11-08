@@ -1,23 +1,9 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T16:33:17.217Z",
+  "generatedAt": "2026-11-08T16:52:22.729Z",
   "lastSuccessfulCheck": "2026-11-08T13:33:06.346Z",
   "monitoredArticles": 56,
-  "pendingCount": 1,
-  "pendingReviews": [
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-4274054251979338495",
-      "title": "Research Explained #22 -- What Would It Take to Detect a Tiny Distortion in Spacetime?",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-22-what-would-it.html",
-      "published": "2026-11-05T09:58:23.764-06:00",
-      "updated": "2026-11-05T09:58:23.764-06:00",
-      "fingerprint": "026a486e54c81c13776b86edd7a6581dc3ace19d1755d409df2ce8387e53aa33",
-      "classification": "NEW",
-      "status": "PENDING",
-      "detectedAt": "2026-11-05T18:26:25.089Z",
-      "contentPath": "articles/4274054251979338495/026a486e54c81c13776b86edd7a6581dc3ace19d1755d409df2ce8387e53aa33.json",
-      "contentSha256": "b53e35c675269f4a1ca2cda1952c97cb34d4b27fda663e7660aaa3f2fbfb7699"
-    }
-  ]
+  "pendingCount": 0,
+  "pendingReviews": []
 }
