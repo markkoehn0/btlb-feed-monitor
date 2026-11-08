@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T17:39:32.782Z",
-  "lastSuccessfulCheck": "2026-11-07T13:33:08.796Z",
-  "monitoredArticles": 55,
-  "pendingCount": 7,
+  "generatedAt": "2026-11-08T13:33:06.838Z",
+  "lastSuccessfulCheck": "2026-11-08T13:33:06.346Z",
+  "monitoredArticles": 56,
+  "pendingCount": 8,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-8040246204219982292",
@@ -96,6 +96,19 @@
       "detectedAt": "2026-11-07T13:33:07.187Z",
       "contentPath": "articles/117840139236241411/1a0893ec3f1959c6958937b71a5f917012a6cb7166b2a45bc78f47df94f9b77d.json",
       "contentSha256": "4e2bc829964ca4345c809fc07d5d7976d084582f13bd1bc3d4b6a0780749e2f1"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-3654156281980371013",
+      "title": "Research Journal #33 — When an Architecture Is Accepted but Not Yet Built",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-journal-33-when-architecture.html",
+      "published": "2026-11-07T08:16:54.889-06:00",
+      "updated": "2026-11-07T08:16:54.889-06:00",
+      "fingerprint": "4898154010139e1b8c0e418b475f14b2eb53a8f986b42f3c92c88c6a5bd7e3bb",
+      "classification": "NEW",
+      "status": "PENDING",
+      "detectedAt": "2026-11-08T13:33:06.049Z",
+      "contentPath": "articles/3654156281980371013/4898154010139e1b8c0e418b475f14b2eb53a8f986b42f3c92c88c6a5bd7e3bb.json",
+      "contentSha256": "5930f607b3f7ff8f44ceff6e2f352438ba8b06ef1d9a4ca423afc927b6a87946"
     }
   ]
 }
