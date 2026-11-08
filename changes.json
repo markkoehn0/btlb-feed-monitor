@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T16:32:58.208Z",
+  "generatedAt": "2026-11-08T16:33:02.389Z",
   "lastSuccessfulCheck": "2026-11-08T13:33:06.346Z",
   "monitoredArticles": 56,
-  "pendingCount": 6,
+  "pendingCount": 5,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1879593111044956659",
@@ -31,19 +31,6 @@
       "detectedAt": "2026-11-04T13:33:06.202Z",
       "contentPath": "articles/3697806019943294304/dd757207e76406da9ebefb0688e64fa359e077548eb4370d4d4d9731842e2dc9.json",
       "contentSha256": "8e6863eab8abc24c098c3d4ea8dc2c96ea67c181cf861d0881a2468ad513d515"
-    },
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-2076332398344806775",
-      "title": "Research Explained #19 -- How Would We Know a Message Really Came Through a Spacetime Shortcut?",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-19-how-would-we-know.html",
-      "published": "2026-11-02T12:02:41.949-06:00",
-      "updated": "2026-11-02T12:42:14.232-06:00",
-      "fingerprint": "bccfe8dba39c2a8276cd560785114a0ac2d8eb1c65041b560ac083cbbde8f5bd",
-      "classification": "NEW",
-      "status": "PENDING",
-      "detectedAt": "2026-11-04T13:33:06.203Z",
-      "contentPath": "articles/2076332398344806775/bccfe8dba39c2a8276cd560785114a0ac2d8eb1c65041b560ac083cbbde8f5bd.json",
-      "contentSha256": "43e5c10aaf70c8211950623d078d2b716f2d5e3ba84c7abf0a6950543a2b37ee"
     },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-4274054251979338495",
