@@ -1,0 +1,41 @@
+name: BTLB Drive Read Probe
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  read-probe:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+
+    steps:
+      - name: Request a short-lived Google Drive credential
+        id: auth
+        uses: google-github-actions/auth@v3
+        with:
+          workload_identity_provider: projects/361422570978/locations/global/workloadIdentityPools/btlb-github-probe/providers/github
+          service_account: btlb-publisher@btlb-publisher.iam.gserviceaccount.com
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/drive.readonly
+          access_token_lifetime: 600s
+          create_credentials_file: false
+
+      - name: Retrieve and validate the synthetic probe
+        env:
+          DRIVE_ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: |
+          set -euo pipefail
+          curl --fail-with-body --silent --show-error \
+            -H "Authorization: Bearer $DRIVE_ACCESS_TOKEN" \
+            'https://www.googleapis.com/drive/v3/files/19kbE_Ok8qv-KtlxaP21hYZFOCUwAGXLe?alt=media' \
+            | jq -e '. == {
+                schema_version: 1,
+                synthetic: true,
+                probe_id: "btlb-stage-003",
+                article_fingerprint: "sha256:ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+                review: "Synthetic staging test."
+              }' >/dev/null
+          echo "PASS: GitHub Actions retrieved the probe and all five fields matched."
