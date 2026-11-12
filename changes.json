@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T13:33:07.918Z",
-  "lastSuccessfulCheck": "2026-11-11T13:33:07.082Z",
-  "monitoredArticles": 59,
-  "pendingCount": 3,
+  "generatedAt": "2026-11-12T13:33:07.232Z",
+  "lastSuccessfulCheck": "2026-11-12T13:33:06.217Z",
+  "monitoredArticles": 60,
+  "pendingCount": 4,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5038331770159399919",
@@ -44,6 +44,19 @@
       "detectedAt": "2026-11-11T13:33:06.227Z",
       "contentPath": "articles/5189770922046338568/aed587625b2d1094774c2bd0a569913b8cdc43edc7cb2cbddc941f769a02ec48.json",
       "contentSha256": "8193afbec766089322cc077992baa71d2ad141081f0a9dd70c6c79c5b03cbef2"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-8122782988371799502",
+      "title": "Research Journal #35 — When Verification Becomes the Challenge",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-journal-35-when-verification.html",
+      "published": "2026-11-11T11:32:15.981-06:00",
+      "updated": "2026-11-11T11:32:15.981-06:00",
+      "fingerprint": "a2d9235ed0fc00d49eb67767fa138d9033f74df11485de42f021d805bb1c8e19",
+      "classification": "NEW",
+      "status": "PENDING",
+      "detectedAt": "2026-11-12T13:33:05.922Z",
+      "contentPath": "articles/8122782988371799502/a2d9235ed0fc00d49eb67767fa138d9033f74df11485de42f021d805bb1c8e19.json",
+      "contentSha256": "daef53f8227306643d07fd31b4e282a18292470d5cafa33ef6689a1d53efbb07"
     }
   ]
 }
