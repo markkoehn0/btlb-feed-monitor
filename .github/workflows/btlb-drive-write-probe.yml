@@ -1,0 +1,127 @@
+name: BTLB Drive Write Probe
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: btlb-synthetic-drive-write-probe
+  cancel-in-progress: false
+
+jobs:
+  write-probe:
+    if: github.ref == 'refs/heads/probe/btlb-drive-write'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      id-token: write
+    steps:
+      - name: Request a short-lived Drive credential
+        id: auth
+        uses: google-github-actions/auth@v3
+        with:
+          workload_identity_provider: projects/361422570978/locations/global/workloadIdentityPools/btlb-github-probe/providers/github
+          service_account: btlb-publisher@btlb-publisher.iam.gserviceaccount.com
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/drive.file
+          access_token_lifetime: 600s
+          create_credentials_file: false
+          export_environment_variables: false
+
+      - name: Create and verify synthetic JSON
+        env:
+          DRIVE_ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import re
+          import uuid
+          from urllib.error import HTTPError, URLError
+          from urllib.parse import urlencode
+          from urllib.request import HTTPRedirectHandler, Request, build_opener
+
+          folder_id = "1qmvwi_ce6S5ucZkOND7gmx5IfVqdnwM_"
+          drive = "https://www.googleapis.com/drive/v3/files"
+          upload = "https://www.googleapis.com/upload/drive/v3/files"
+          token = os.environ.pop("DRIVE_ACCESS_TOKEN", "")
+          if not token:
+              raise SystemExit("Missing Google Drive token.")
+
+          class NoRedirect(HTTPRedirectHandler):
+              def redirect_request(self, req, fp, code, msg, headers, newurl):
+                  return None
+
+          opener = build_opener(NoRedirect())
+
+          def request(operation, url, params, body=None, content_type=None):
+              headers = {"Authorization": "Bearer " + token}
+              if content_type:
+                  headers["Content-Type"] = content_type
+              req = Request(url + "?" + urlencode(params), data=body, headers=headers)
+              try:
+                  with opener.open(req, timeout=25) as response:
+                      return response.read()
+              except HTTPError as error:
+                  raise SystemExit(f"{operation} failed (HTTP {error.code}).") from None
+              except (URLError, TimeoutError):
+                  raise SystemExit(f"{operation} failed (connection error).") from None
+
+          folder = json.loads(request("Folder preflight", f"{drive}/{folder_id}", {
+              "supportsAllDrives": "true",
+              "fields": "id,name,mimeType,trashed,driveId,capabilities(canAddChildren)",
+          }))
+          if (folder.get("id") != folder_id
+              or folder.get("name") != "BTLB Synthetic Staging Probe"
+              or folder.get("mimeType") != "application/vnd.google-apps.folder"
+              or folder.get("trashed") is not False
+              or not folder.get("driveId")
+              or folder.get("capabilities", {}).get("canAddChildren") is not True):
+              raise SystemExit("Folder preflight failed. An active writable Shared Drive folder is required for this service account.")
+
+          nonce = uuid.uuid4().hex
+          name = f"btlb-synthetic-write-{os.environ['GITHUB_RUN_ID']}-{os.environ['GITHUB_RUN_ATTEMPT']}-{nonce}.json"
+          existing = json.loads(request("Name collision check", drive, {
+              "q": f"'{folder_id}' in parents and name = '{name}' and trashed = false",
+              "corpora": "drive", "driveId": folder["driveId"],
+              "includeItemsFromAllDrives": "true", "supportsAllDrives": "true",
+              "pageSize": 1, "fields": "files(id),nextPageToken,incompleteSearch",
+          }))
+          if existing.get("files") or existing.get("nextPageToken") or existing.get("incompleteSearch"):
+              raise SystemExit("Name collision or incomplete search. Upload cancelled.")
+
+          generated = json.loads(request("Allocate file ID", f"{drive}/generateIds", {"count": 1}))
+          file_id, = generated["ids"]
+          if not re.fullmatch(r"[A-Za-z0-9_-]+", file_id):
+              raise SystemExit("Invalid generated Drive file ID.")
+
+          payload = (json.dumps({
+              "schema_version": 1, "synthetic": True, "probe_id": nonce,
+              "purpose": "BTLB staging write and read-back",
+          }, sort_keys=True) + "\n").encode()
+          metadata = json.dumps({
+              "id": file_id, "name": name, "parents": [folder_id],
+              "mimeType": "application/json",
+          }).encode()
+          boundary = f"btlb_{nonce}"
+          delimiter = f"--{boundary}\r\n".encode()
+          body = (
+              delimiter + b"Content-Type: application/json; charset=UTF-8\r\n\r\n" + metadata + b"\r\n"
+              + delimiter + b"Content-Type: application/json\r\n\r\n" + payload + b"\r\n"
+              + f"--{boundary}--\r\n".encode()
+          )
+          print(f"Allocated Drive file ID: {file_id}", flush=True)
+          created = json.loads(request("Create", upload, {
+              "uploadType": "multipart", "supportsAllDrives": "true",
+              "fields": "id,name,parents",
+          }, body, f"multipart/related; boundary={boundary}"))
+          if created != {"id": file_id, "name": name, "parents": [folder_id]}:
+              raise SystemExit("Create response failed destination validation.")
+          downloaded = request("Read-back", f"{drive}/{file_id}", {
+              "alt": "media", "supportsAllDrives": "true",
+          })
+          if downloaded != payload:
+              raise SystemExit("FAIL: Downloaded bytes differ from uploaded bytes.")
+          print(f"PASS: Exact byte match for {name}. Drive file ID: {file_id}")
+          PY
