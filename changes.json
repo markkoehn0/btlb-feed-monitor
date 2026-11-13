@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T13:33:07.232Z",
-  "lastSuccessfulCheck": "2026-11-12T13:33:06.217Z",
-  "monitoredArticles": 60,
-  "pendingCount": 4,
+  "generatedAt": "2026-11-13T13:33:07.349Z",
+  "lastSuccessfulCheck": "2026-11-13T13:33:06.635Z",
+  "monitoredArticles": 61,
+  "pendingCount": 5,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5038331770159399919",
@@ -57,6 +57,19 @@
       "detectedAt": "2026-11-12T13:33:05.922Z",
       "contentPath": "articles/8122782988371799502/a2d9235ed0fc00d49eb67767fa138d9033f74df11485de42f021d805bb1c8e19.json",
       "contentSha256": "daef53f8227306643d07fd31b4e282a18292470d5cafa33ef6689a1d53efbb07"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1566168997690398179",
+      "title": "Research Explained #23 — Why We Paused the Physics to Build the Tools",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-23-why-we-paused.html",
+      "published": "2026-11-12T20:58:19.874-06:00",
+      "updated": "2026-11-12T20:58:19.874-06:00",
+      "fingerprint": "371b4fa06e0aabc279827724446cac004d2415e99ecf551a0c519bb65be564ab",
+      "classification": "NEW",
+      "status": "PENDING",
+      "detectedAt": "2026-11-13T13:33:06.271Z",
+      "contentPath": "articles/1566168997690398179/371b4fa06e0aabc279827724446cac004d2415e99ecf551a0c519bb65be564ab.json",
+      "contentSha256": "3e8b6874cb34d357e054158534746d8aac516d065c444595526312fb1f8fbeb6"
     }
   ]
 }
