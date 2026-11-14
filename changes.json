@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T13:33:07.349Z",
-  "lastSuccessfulCheck": "2026-11-13T13:33:06.635Z",
-  "monitoredArticles": 61,
-  "pendingCount": 5,
+  "generatedAt": "2026-11-14T13:33:07.184Z",
+  "lastSuccessfulCheck": "2026-11-14T13:33:06.585Z",
+  "monitoredArticles": 62,
+  "pendingCount": 6,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5038331770159399919",
@@ -70,6 +70,19 @@
       "detectedAt": "2026-11-13T13:33:06.271Z",
       "contentPath": "articles/1566168997690398179/371b4fa06e0aabc279827724446cac004d2415e99ecf551a0c519bb65be564ab.json",
       "contentSha256": "3e8b6874cb34d357e054158534746d8aac516d065c444595526312fb1f8fbeb6"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-7977210523778657987",
+      "title": "Research Explained #24 — Why We Try to Break Our Own Architecture First",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-24-why-we-try-to.html",
+      "published": "2026-11-13T10:30:52.831-06:00",
+      "updated": "2026-11-13T10:30:52.832-06:00",
+      "fingerprint": "2ae82c44096101ebf3a72c2e9856f76027f0a1bfc96112a6527a062f6dec38b9",
+      "classification": "NEW",
+      "status": "PENDING",
+      "detectedAt": "2026-11-14T13:33:06.290Z",
+      "contentPath": "articles/7977210523778657987/2ae82c44096101ebf3a72c2e9856f76027f0a1bfc96112a6527a062f6dec38b9.json",
+      "contentSha256": "27ff5796b7378f082756a020d7fc2501b891f11f061aeeed9b6151184fabae2e"
     }
   ]
 }
