@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T13:33:06.945Z",
+  "generatedAt": "2026-11-16T18:17:41.813Z",
   "lastSuccessfulCheck": "2026-11-16T13:33:06.253Z",
   "monitoredArticles": 64,
-  "pendingCount": 8,
+  "pendingCount": 7,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5038331770159399919",
@@ -18,19 +18,6 @@
       "detectedAt": "2026-11-09T13:33:06.588Z",
       "contentPath": "articles/5038331770159399919/736e40fa857f3006b8ab918fc1bd6dce0c51166568d503e7ed9d72027803c969.json",
       "contentSha256": "718c3092501962e7ea839955a97cd382460e77bc77a768be42799fde916fd6bb"
-    },
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-3639886989776078257",
-      "title": "Research Journal #34 — What Makes a Scientific Record Trustworthy?",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-journal-34-what-makes.html",
-      "published": "2026-11-08T07:57:38.161-06:00",
-      "updated": "2026-11-08T07:57:38.162-06:00",
-      "fingerprint": "53337b7a253d44333882d0eb0d6e425071c0d6056b9f2691807c0f5bccf4d8ae",
-      "classification": "NEW",
-      "status": "PENDING",
-      "detectedAt": "2026-11-09T13:33:06.625Z",
-      "contentPath": "articles/3639886989776078257/53337b7a253d44333882d0eb0d6e425071c0d6056b9f2691807c0f5bccf4d8ae.json",
-      "contentSha256": "d795deeb336465344399388b82ebe57cf19f2ad225fed8795da73375ce9a5c70"
     },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5189770922046338568",
