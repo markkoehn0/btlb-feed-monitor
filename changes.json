@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T18:17:41.813Z",
-  "lastSuccessfulCheck": "2026-11-16T13:33:06.253Z",
-  "monitoredArticles": 64,
-  "pendingCount": 7,
+  "generatedAt": "2026-11-17T13:33:08.703Z",
+  "lastSuccessfulCheck": "2026-11-17T13:33:07.411Z",
+  "monitoredArticles": 65,
+  "pendingCount": 10,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5038331770159399919",
@@ -96,6 +96,45 @@
       "detectedAt": "2026-11-16T13:33:05.952Z",
       "contentPath": "articles/4874445770275123849/a68f30706461b6f7edec64648f55aa39634850a6cdd2c36927ea3e8612100ca0.json",
       "contentSha256": "cf8b8fcb1b2ea1ab64c768c90ecb473a89bebd9ed21ff39efba2690542ef60c9"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1098558553575977914",
+      "title": "Research Explained #26 — Can Two Devices Create a Shortcut Through Spacetime?",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-26-can-two-devices.html",
+      "published": "2026-11-16T14:16:52.349-06:00",
+      "updated": "2026-11-16T14:16:52.350-06:00",
+      "fingerprint": "6ba0a2f8497af13c192b0cc0ab9b32e8dc69c8b60046fa3caa5cf8a08c2bbf2f",
+      "classification": "NEW",
+      "status": "PENDING",
+      "detectedAt": "2026-11-17T13:33:06.576Z",
+      "contentPath": "articles/1098558553575977914/6ba0a2f8497af13c192b0cc0ab9b32e8dc69c8b60046fa3caa5cf8a08c2bbf2f.json",
+      "contentSha256": "948b3e28696dec503501f619f9b3178e911844e00bdedb15e54c11a99bb95389"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5189770922046338568",
+      "title": "AI Assisted Research #5 — Can AI Help Us Discover New Physics? From Ideas to Equations",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/ai-assisted-research-5-can-ai-help-us.html",
+      "published": "2026-11-10T11:42:38.051-06:00",
+      "updated": "2026-11-16T19:59:40.385-06:00",
+      "fingerprint": "a15105afa914acfe70443afff54248d416e3bdeefdf792873afd591366977f7f",
+      "classification": "CHANGED",
+      "status": "PENDING",
+      "detectedAt": "2026-11-17T13:33:06.674Z",
+      "contentPath": "articles/5189770922046338568/a15105afa914acfe70443afff54248d416e3bdeefdf792873afd591366977f7f.json",
+      "contentSha256": "a613aadb4806b6e894cbccf9a0b4247a7f3cb983f70ef25fac422cc061cdf392"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5038331770159399919",
+      "title": "AI Assisted Research #4 — Collaboration, Verification, and Accountability",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/ai-assisted-research-4-collaboration.html",
+      "published": "2026-11-09T07:05:57.870-06:00",
+      "updated": "2026-11-16T15:16:40.666-06:00",
+      "fingerprint": "e02ac70df50af11698cb64c5b5e209213785f79e77c87c7d9e6935a38c441209",
+      "classification": "CHANGED",
+      "status": "PENDING",
+      "detectedAt": "2026-11-17T13:33:06.712Z",
+      "contentPath": "articles/5038331770159399919/e02ac70df50af11698cb64c5b5e209213785f79e77c87c7d9e6935a38c441209.json",
+      "contentSha256": "76d7a94799acce64bf1fe89d4dcc4aca7526c914092cc2b80f1770bd3a2d9e5d"
     }
   ]
 }
