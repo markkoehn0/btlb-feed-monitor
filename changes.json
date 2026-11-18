@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T16:32:24.905Z",
+  "generatedAt": "2026-11-18T16:54:08.071Z",
   "lastSuccessfulCheck": "2026-11-18T13:33:06.366Z",
   "monitoredArticles": 66,
-  "pendingCount": 15,
+  "pendingCount": 14,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5038331770159399919",
@@ -174,19 +174,6 @@
       "detectedAt": "2026-11-18T13:33:06.046Z",
       "contentPath": "articles/5189770922046338568/2b5bdc1e53c5eb6c51bfb9e392ff072baa4003970258ec32cf88642e0a082fb8.json",
       "contentSha256": "25bcfd0b294c2e9e10af57210538c0b1af09012f286ffb81b443e1ed17ced5ee"
-    },
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5038331770159399919",
-      "title": "AI Assisted Research #4 — Collaboration, Verification, and Accountability",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/ai-assisted-research-4-collaboration.html",
-      "published": "2026-11-09T07:05:57.870-06:00",
-      "updated": "2026-11-17T11:42:41.007-06:00",
-      "fingerprint": "c3bb38e370d198ab14f095356ae8b0ad225d721e36ba9a5d18633e2296abcf69",
-      "classification": "CHANGED",
-      "status": "PENDING",
-      "detectedAt": "2026-11-18T13:33:06.069Z",
-      "contentPath": "articles/5038331770159399919/c3bb38e370d198ab14f095356ae8b0ad225d721e36ba9a5d18633e2296abcf69.json",
-      "contentSha256": "2cfb8d372595141331e593533eb967c766a396952ae3aa54db87af269fe4d45c"
     },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-4274054251979338495",
