@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T16:54:08.071Z",
+  "generatedAt": "2026-11-18T16:58:28.894Z",
   "lastSuccessfulCheck": "2026-11-18T13:33:06.366Z",
   "monitoredArticles": 66,
-  "pendingCount": 14,
+  "pendingCount": 13,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5038331770159399919",
@@ -161,19 +161,6 @@
       "detectedAt": "2026-11-18T13:33:06.025Z",
       "contentPath": "articles/8122782988371799502/3eb1b0b0e2482389beb83f2d35f66ef8bb4916950480f2d547149a0b6774d5fa.json",
       "contentSha256": "643a69c9d1515eed19facaacadd0e5687b658c359836f515c81b21e056c47649"
-    },
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5189770922046338568",
-      "title": "AI Assisted Research #5 — Can AI Help Us Discover New Physics? From Ideas to Equations",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/ai-assisted-research-5-can-ai-help-us.html",
-      "published": "2026-11-10T11:42:38.051-06:00",
-      "updated": "2026-11-17T11:11:06.435-06:00",
-      "fingerprint": "2b5bdc1e53c5eb6c51bfb9e392ff072baa4003970258ec32cf88642e0a082fb8",
-      "classification": "CHANGED",
-      "status": "PENDING",
-      "detectedAt": "2026-11-18T13:33:06.046Z",
-      "contentPath": "articles/5189770922046338568/2b5bdc1e53c5eb6c51bfb9e392ff072baa4003970258ec32cf88642e0a082fb8.json",
-      "contentSha256": "25bcfd0b294c2e9e10af57210538c0b1af09012f286ffb81b443e1ed17ced5ee"
     },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-4274054251979338495",
