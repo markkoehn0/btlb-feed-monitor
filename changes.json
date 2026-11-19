@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T17:23:26.062Z",
-  "lastSuccessfulCheck": "2026-11-18T13:33:06.366Z",
-  "monitoredArticles": 66,
-  "pendingCount": 11,
+  "generatedAt": "2026-11-19T13:33:07.849Z",
+  "lastSuccessfulCheck": "2026-11-19T13:33:06.908Z",
+  "monitoredArticles": 67,
+  "pendingCount": 13,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5038331770159399919",
@@ -148,6 +148,32 @@
       "detectedAt": "2026-11-18T13:33:05.948Z",
       "contentPath": "articles/3200150787543615880/a5c3aa25d5e633517eb18fb6cafd26e3ffc1f6563a7b030df15beec7128793f0.json",
       "contentSha256": "d234470744a7488a551ded13c78fac5c4b1da113a177ebe5eb12e6efe430a251"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-3629935023911839508",
+      "title": "Research Explained #28 — How Would We Detect an Artificial Change in Spacetime?",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-28-how-would-we.html",
+      "published": "2026-11-18T23:05:38.522-06:00",
+      "updated": "2026-11-18T23:05:38.523-06:00",
+      "fingerprint": "b5453acb6f7254e1cecac9d25f59d86f38e6767f8e2b70e0823ad2abc4b3b55b",
+      "classification": "NEW",
+      "status": "PENDING",
+      "detectedAt": "2026-11-19T13:33:06.320Z",
+      "contentPath": "articles/3629935023911839508/b5453acb6f7254e1cecac9d25f59d86f38e6767f8e2b70e0823ad2abc4b3b55b.json",
+      "contentSha256": "2d9d48c2d33237c2a55c22e89e2c7dd64101c7bd035bbf14281236404c0eab62"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-3200150787543615880",
+      "title": "Research Explained #27 — What Does It Mean to Control Spacetime?",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-27-what-does-it-mean.html",
+      "published": "2026-11-17T21:54:09.845-06:00",
+      "updated": "2026-11-18T17:22:09.678-06:00",
+      "fingerprint": "5e920aefea37424e0b735499a4acaedb5d3042a6712016eda227c00321f57107",
+      "classification": "CHANGED",
+      "status": "PENDING",
+      "detectedAt": "2026-11-19T13:33:06.397Z",
+      "contentPath": "articles/3200150787543615880/5e920aefea37424e0b735499a4acaedb5d3042a6712016eda227c00321f57107.json",
+      "contentSha256": "6175a09b23a845c5e88c66f2e052657df942006fcdee056e60ae73034ab261b6"
     }
   ]
 }
