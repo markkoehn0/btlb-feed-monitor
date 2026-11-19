@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T13:33:07.849Z",
+  "generatedAt": "2026-11-19T21:41:13.836Z",
   "lastSuccessfulCheck": "2026-11-19T13:33:06.908Z",
   "monitoredArticles": 67,
-  "pendingCount": 13,
+  "pendingCount": 12,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5038331770159399919",
@@ -161,19 +161,6 @@
       "detectedAt": "2026-11-19T13:33:06.320Z",
       "contentPath": "articles/3629935023911839508/b5453acb6f7254e1cecac9d25f59d86f38e6767f8e2b70e0823ad2abc4b3b55b.json",
       "contentSha256": "2d9d48c2d33237c2a55c22e89e2c7dd64101c7bd035bbf14281236404c0eab62"
-    },
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-3200150787543615880",
-      "title": "Research Explained #27 — What Does It Mean to Control Spacetime?",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-27-what-does-it-mean.html",
-      "published": "2026-11-17T21:54:09.845-06:00",
-      "updated": "2026-11-18T17:22:09.678-06:00",
-      "fingerprint": "5e920aefea37424e0b735499a4acaedb5d3042a6712016eda227c00321f57107",
-      "classification": "CHANGED",
-      "status": "PENDING",
-      "detectedAt": "2026-11-19T13:33:06.397Z",
-      "contentPath": "articles/3200150787543615880/5e920aefea37424e0b735499a4acaedb5d3042a6712016eda227c00321f57107.json",
-      "contentSha256": "6175a09b23a845c5e88c66f2e052657df942006fcdee056e60ae73034ab261b6"
     }
   ]
 }
