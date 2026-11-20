@@ -1,24 +1,11 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T21:41:13.836Z",
+  "generatedAt": "2026-11-20T02:47:17.084Z",
   "lastSuccessfulCheck": "2026-11-19T13:33:06.908Z",
   "monitoredArticles": 67,
-  "pendingCount": 12,
+  "pendingCount": 11,
   "pendingReviews": [
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5038331770159399919",
-      "title": "AI Assisted Research #4 — Collaboration, Verification, and Accountability",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/ai-assisted-research-4-collaboration.html",
-      "published": "2026-11-09T07:05:57.870-06:00",
-      "updated": "2026-11-09T07:05:57.870-06:00",
-      "fingerprint": "736e40fa857f3006b8ab918fc1bd6dce0c51166568d503e7ed9d72027803c969",
-      "classification": "NEW",
-      "status": "PENDING",
-      "detectedAt": "2026-11-09T13:33:06.588Z",
-      "contentPath": "articles/5038331770159399919/736e40fa857f3006b8ab918fc1bd6dce0c51166568d503e7ed9d72027803c969.json",
-      "contentSha256": "718c3092501962e7ea839955a97cd382460e77bc77a768be42799fde916fd6bb"
-    },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5189770922046338568",
       "title": "AI Assisted Research #5 — Can AI Help Us Discover New Physics? From Ideas to Equations",
