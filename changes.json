@@ -1,24 +1,11 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T16:21:39.159Z",
+  "generatedAt": "2026-11-20T18:49:55.558Z",
   "lastSuccessfulCheck": "2026-11-20T13:33:07.407Z",
   "monitoredArticles": 68,
-  "pendingCount": 9,
+  "pendingCount": 8,
   "pendingReviews": [
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-8122782988371799502",
-      "title": "Research Journal #35 — When Verification Becomes the Challenge",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-journal-35-when-verification.html",
-      "published": "2026-11-11T11:32:15.981-06:00",
-      "updated": "2026-11-11T11:32:15.981-06:00",
-      "fingerprint": "a2d9235ed0fc00d49eb67767fa138d9033f74df11485de42f021d805bb1c8e19",
-      "classification": "NEW",
-      "status": "PENDING",
-      "detectedAt": "2026-11-12T13:33:05.922Z",
-      "contentPath": "articles/8122782988371799502/a2d9235ed0fc00d49eb67767fa138d9033f74df11485de42f021d805bb1c8e19.json",
-      "contentSha256": "daef53f8227306643d07fd31b4e282a18292470d5cafa33ef6689a1d53efbb07"
-    },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1566168997690398179",
       "title": "Research Explained #23 — Why We Paused the Physics to Build the Tools",
