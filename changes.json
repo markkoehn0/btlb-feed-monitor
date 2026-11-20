@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T02:56:07.597Z",
-  "lastSuccessfulCheck": "2026-11-19T13:33:06.908Z",
-  "monitoredArticles": 67,
-  "pendingCount": 9,
+  "generatedAt": "2026-11-20T13:33:08.118Z",
+  "lastSuccessfulCheck": "2026-11-20T13:33:07.407Z",
+  "monitoredArticles": 68,
+  "pendingCount": 11,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5189770922046338568",
@@ -122,6 +122,32 @@
       "detectedAt": "2026-11-19T13:33:06.320Z",
       "contentPath": "articles/3629935023911839508/b5453acb6f7254e1cecac9d25f59d86f38e6767f8e2b70e0823ad2abc4b3b55b.json",
       "contentSha256": "2d9d48c2d33237c2a55c22e89e2c7dd64101c7bd035bbf14281236404c0eab62"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-897239148454460108",
+      "title": "Research Explained #29 -- Can We Change Spacetime Without Moving Matter?",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-29-can-we-change.html",
+      "published": "2026-11-19T13:00:49.647-06:00",
+      "updated": "2026-11-19T13:00:49.648-06:00",
+      "fingerprint": "b3acb63e403d060c61513ec05a2f00a39d8d6e449796008af6c0cf19dd796952",
+      "classification": "NEW",
+      "status": "PENDING",
+      "detectedAt": "2026-11-20T13:33:06.847Z",
+      "contentPath": "articles/897239148454460108/b3acb63e403d060c61513ec05a2f00a39d8d6e449796008af6c0cf19dd796952.json",
+      "contentSha256": "bfb81f853e69468bb0e41def0bc4de99f62c59c3ea5e0853b80184b887a06de8"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5189770922046338568",
+      "title": "AI Assisted Research #5 — Can AI Help Us Discover New Physics? From Ideas to Equations",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/ai-assisted-research-5-can-ai-help-us.html",
+      "published": "2026-11-10T11:42:38.051-06:00",
+      "updated": "2026-11-19T21:29:58.948-06:00",
+      "fingerprint": "7a6dfa5a05a7474d47e28371caa7fe7bcaf5dd5e70625a8fd00f5d860bfe9e15",
+      "classification": "CHANGED",
+      "status": "PENDING",
+      "detectedAt": "2026-11-20T13:33:06.972Z",
+      "contentPath": "articles/5189770922046338568/7a6dfa5a05a7474d47e28371caa7fe7bcaf5dd5e70625a8fd00f5d860bfe9e15.json",
+      "contentSha256": "e0c4346d60cc03e747d5007077a6e6368ba758732da886d14449bb0c80d7bfa9"
     }
   ]
 }
