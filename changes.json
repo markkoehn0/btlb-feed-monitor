@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T18:49:55.558Z",
-  "lastSuccessfulCheck": "2026-11-20T13:33:07.407Z",
-  "monitoredArticles": 68,
-  "pendingCount": 8,
+  "generatedAt": "2026-11-21T13:33:16.752Z",
+  "lastSuccessfulCheck": "2026-11-21T13:33:13.842Z",
+  "monitoredArticles": 69,
+  "pendingCount": 16,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1566168997690398179",
@@ -109,6 +109,110 @@
       "detectedAt": "2026-11-20T13:33:06.972Z",
       "contentPath": "articles/5189770922046338568/7a6dfa5a05a7474d47e28371caa7fe7bcaf5dd5e70625a8fd00f5d860bfe9e15.json",
       "contentSha256": "e0c4346d60cc03e747d5007077a6e6368ba758732da886d14449bb0c80d7bfa9"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-6931318398696592287",
+      "title": "Research Journal #37 — How We Checked the Gravity of a Straight Particle Beam",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-journal-37-how-we-checked.html",
+      "published": "2026-11-20T22:56:44.253-06:00",
+      "updated": "2026-11-20T22:56:44.253-06:00",
+      "fingerprint": "37a26b9389778b28d8a58add026c078d5909eb23e2f70ca17a9db18135c42f01",
+      "classification": "NEW",
+      "status": "PENDING",
+      "detectedAt": "2026-11-21T13:33:07.337Z",
+      "contentPath": "articles/6931318398696592287/37a26b9389778b28d8a58add026c078d5909eb23e2f70ca17a9db18135c42f01.json",
+      "contentSha256": "ef78b41c297bba409ead0ff04f95f94085e07b890498f04e3dcd5fd0c9a44ac6"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-897239148454460108",
+      "title": "Research Explained #29 -- Can We Change Spacetime Without Moving Matter?",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-29-can-we-change.html",
+      "published": "2026-11-19T13:00:49.647-06:00",
+      "updated": "2026-11-20T18:28:46.927-06:00",
+      "fingerprint": "0b4a34199a788453043526251dd07cdaa595638f0e31692d32a84465a39b095f",
+      "classification": "CHANGED",
+      "status": "PENDING",
+      "detectedAt": "2026-11-21T13:33:07.477Z",
+      "contentPath": "articles/897239148454460108/0b4a34199a788453043526251dd07cdaa595638f0e31692d32a84465a39b095f.json",
+      "contentSha256": "faf3485d134c362343359d80a266c08f15ea24bd548aabd6843dda9db752dc9b"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-3629935023911839508",
+      "title": "Research Explained #28 — How Would We Detect an Artificial Change in Spacetime?",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-28-how-would-we.html",
+      "published": "2026-11-18T23:05:38.522-06:00",
+      "updated": "2026-11-20T18:30:03.020-06:00",
+      "fingerprint": "54a5f1b23f1efd1ee8f456f643e173f155f09beb6eadd5f06f2c4e03212c9063",
+      "classification": "CHANGED",
+      "status": "PENDING",
+      "detectedAt": "2026-11-21T13:33:07.616Z",
+      "contentPath": "articles/3629935023911839508/54a5f1b23f1efd1ee8f456f643e173f155f09beb6eadd5f06f2c4e03212c9063.json",
+      "contentSha256": "dcfde52881f52e2dc9d10f56685e3b0cf1ff3b565f3711b69ab945aaecad43f2"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1098558553575977914",
+      "title": "Research Explained #26 — Can Two Devices Create a Shortcut Through Spacetime?",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-26-can-two-devices.html",
+      "published": "2026-11-16T14:16:52.349-06:00",
+      "updated": "2026-11-20T18:23:35.225-06:00",
+      "fingerprint": "4593022517a05866add604b34070e785652244de871b148c12cb044103dae480",
+      "classification": "CHANGED",
+      "status": "PENDING",
+      "detectedAt": "2026-11-21T13:33:07.670Z",
+      "contentPath": "articles/1098558553575977914/4593022517a05866add604b34070e785652244de871b148c12cb044103dae480.json",
+      "contentSha256": "545154c6c3deab237809b67eb0e5f69d55cfa5e37f904e43758fac613256f74f"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-4874445770275123849",
+      "title": "Research Explained #25 — When the Math Works but the Physics Doesn't",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-25-when-math-works.html",
+      "published": "2026-11-15T18:05:50.562-06:00",
+      "updated": "2026-11-20T18:16:04.282-06:00",
+      "fingerprint": "64635706a673dad6dcba237179ff4547ae997caae7be6435c8dcb5aaa1b71c6f",
+      "classification": "CHANGED",
+      "status": "PENDING",
+      "detectedAt": "2026-11-21T13:33:07.932Z",
+      "contentPath": "articles/4874445770275123849/64635706a673dad6dcba237179ff4547ae997caae7be6435c8dcb5aaa1b71c6f.json",
+      "contentSha256": "929a99f9c4f4b736293ddec5ff1fb38380b66b3197675d83a6726f437ad78ed9"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5864131380684846248",
+      "title": "Research Journal #36 — When the Physics Pushes Back: New Investigations in WC and WD",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-journal-36-when-physics-pushes.html",
+      "published": "2026-11-14T10:17:12.134-06:00",
+      "updated": "2026-11-20T16:35:34.725-06:00",
+      "fingerprint": "6c7e1adfee2aa39ae83fdcef87e946a7f90ec828375bb1f5b651bd1a79baf4bd",
+      "classification": "CHANGED",
+      "status": "PENDING",
+      "detectedAt": "2026-11-21T13:33:08.400Z",
+      "contentPath": "articles/5864131380684846248/6c7e1adfee2aa39ae83fdcef87e946a7f90ec828375bb1f5b651bd1a79baf4bd.json",
+      "contentSha256": "95673cb6eda7ffc7509e7c403b2cc6269569e0f02024ccecfab3b9a02d2746ac"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-7977210523778657987",
+      "title": "Research Explained #24 — Why We Try to Break Our Own Architecture First",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-24-why-we-try-to.html",
+      "published": "2026-11-13T10:30:52.831-06:00",
+      "updated": "2026-11-20T13:08:09.999-06:00",
+      "fingerprint": "3455aa3f86b3639e7f26e14b01364eb74e0a238d60f5677c1e8aa8bf2b59998d",
+      "classification": "CHANGED",
+      "status": "PENDING",
+      "detectedAt": "2026-11-21T13:33:08.802Z",
+      "contentPath": "articles/7977210523778657987/3455aa3f86b3639e7f26e14b01364eb74e0a238d60f5677c1e8aa8bf2b59998d.json",
+      "contentSha256": "a7df9d15bd44e460e4e91cd74e8ef1d422f7a7151469e859968eae33062d7797"
+    },
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1566168997690398179",
+      "title": "Research Explained #23 — Why We Paused the Physics to Build the Tools",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-23-why-we-paused.html",
+      "published": "2026-11-12T20:58:19.874-06:00",
+      "updated": "2026-11-20T13:05:05.105-06:00",
+      "fingerprint": "2f1e50eb3f332ac6160f8e38e4996681c6f94a3b522a22b7f47d2f900e45f3fc",
+      "classification": "CHANGED",
+      "status": "PENDING",
+      "detectedAt": "2026-11-21T13:33:09.041Z",
+      "contentPath": "articles/1566168997690398179/2f1e50eb3f332ac6160f8e38e4996681c6f94a3b522a22b7f47d2f900e45f3fc.json",
+      "contentSha256": "d8192659a69b425fcc520e17aee6358550d54aa67ebc7406e25233648c158edb"
     }
   ]
 }
