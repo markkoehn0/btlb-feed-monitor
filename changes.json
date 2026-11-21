@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T16:40:06.623Z",
+  "generatedAt": "2026-11-21T16:41:24.156Z",
   "lastSuccessfulCheck": "2026-11-21T13:33:13.842Z",
   "monitoredArticles": 69,
-  "pendingCount": 3,
+  "pendingCount": 2,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-6931318398696592287",
@@ -31,19 +31,6 @@
       "detectedAt": "2026-11-21T13:33:07.477Z",
       "contentPath": "articles/897239148454460108/0b4a34199a788453043526251dd07cdaa595638f0e31692d32a84465a39b095f.json",
       "contentSha256": "faf3485d134c362343359d80a266c08f15ea24bd548aabd6843dda9db752dc9b"
-    },
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-3629935023911839508",
-      "title": "Research Explained #28 — How Would We Detect an Artificial Change in Spacetime?",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-28-how-would-we.html",
-      "published": "2026-11-18T23:05:38.522-06:00",
-      "updated": "2026-11-20T18:30:03.020-06:00",
-      "fingerprint": "54a5f1b23f1efd1ee8f456f643e173f155f09beb6eadd5f06f2c4e03212c9063",
-      "classification": "CHANGED",
-      "status": "PENDING",
-      "detectedAt": "2026-11-21T13:33:07.616Z",
-      "contentPath": "articles/3629935023911839508/54a5f1b23f1efd1ee8f456f643e173f155f09beb6eadd5f06f2c4e03212c9063.json",
-      "contentSha256": "dcfde52881f52e2dc9d10f56685e3b0cf1ff3b565f3711b69ab945aaecad43f2"
     }
   ]
 }
