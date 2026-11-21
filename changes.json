@@ -1,24 +1,11 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T16:19:27.535Z",
+  "generatedAt": "2026-11-21T16:20:43.321Z",
   "lastSuccessfulCheck": "2026-11-21T13:33:13.842Z",
   "monitoredArticles": 69,
-  "pendingCount": 13,
+  "pendingCount": 12,
   "pendingReviews": [
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-4874445770275123849",
-      "title": "Research Explained #25 — When the Math Works but the Physics Doesn't",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-25-when-math-works.html",
-      "published": "2026-11-15T18:05:50.562-06:00",
-      "updated": "2026-11-15T18:05:50.562-06:00",
-      "fingerprint": "a68f30706461b6f7edec64648f55aa39634850a6cdd2c36927ea3e8612100ca0",
-      "classification": "NEW",
-      "status": "PENDING",
-      "detectedAt": "2026-11-16T13:33:05.952Z",
-      "contentPath": "articles/4874445770275123849/a68f30706461b6f7edec64648f55aa39634850a6cdd2c36927ea3e8612100ca0.json",
-      "contentSha256": "cf8b8fcb1b2ea1ab64c768c90ecb473a89bebd9ed21ff39efba2690542ef60c9"
-    },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1098558553575977914",
       "title": "Research Explained #26 — Can Two Devices Create a Shortcut Through Spacetime?",
