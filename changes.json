@@ -1,24 +1,11 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T13:33:16.752Z",
+  "generatedAt": "2026-11-21T16:15:31.843Z",
   "lastSuccessfulCheck": "2026-11-21T13:33:13.842Z",
   "monitoredArticles": 69,
-  "pendingCount": 16,
+  "pendingCount": 15,
   "pendingReviews": [
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1566168997690398179",
-      "title": "Research Explained #23 — Why We Paused the Physics to Build the Tools",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-23-why-we-paused.html",
-      "published": "2026-11-12T20:58:19.874-06:00",
-      "updated": "2026-11-12T20:58:19.874-06:00",
-      "fingerprint": "371b4fa06e0aabc279827724446cac004d2415e99ecf551a0c519bb65be564ab",
-      "classification": "NEW",
-      "status": "PENDING",
-      "detectedAt": "2026-11-13T13:33:06.271Z",
-      "contentPath": "articles/1566168997690398179/371b4fa06e0aabc279827724446cac004d2415e99ecf551a0c519bb65be564ab.json",
-      "contentSha256": "3e8b6874cb34d357e054158534746d8aac516d065c444595526312fb1f8fbeb6"
-    },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-7977210523778657987",
       "title": "Research Explained #24 — Why We Try to Break Our Own Architecture First",
