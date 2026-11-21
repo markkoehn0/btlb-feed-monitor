@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T16:35:23.689Z",
+  "generatedAt": "2026-11-21T16:36:36.551Z",
   "lastSuccessfulCheck": "2026-11-21T13:33:13.842Z",
   "monitoredArticles": 69,
-  "pendingCount": 6,
+  "pendingCount": 5,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-6931318398696592287",
@@ -70,19 +70,6 @@
       "detectedAt": "2026-11-21T13:33:07.932Z",
       "contentPath": "articles/4874445770275123849/64635706a673dad6dcba237179ff4547ae997caae7be6435c8dcb5aaa1b71c6f.json",
       "contentSha256": "929a99f9c4f4b736293ddec5ff1fb38380b66b3197675d83a6726f437ad78ed9"
-    },
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5864131380684846248",
-      "title": "Research Journal #36 — When the Physics Pushes Back: New Investigations in WC and WD",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-journal-36-when-physics-pushes.html",
-      "published": "2026-11-14T10:17:12.134-06:00",
-      "updated": "2026-11-20T16:35:34.725-06:00",
-      "fingerprint": "6c7e1adfee2aa39ae83fdcef87e946a7f90ec828375bb1f5b651bd1a79baf4bd",
-      "classification": "CHANGED",
-      "status": "PENDING",
-      "detectedAt": "2026-11-21T13:33:08.400Z",
-      "contentPath": "articles/5864131380684846248/6c7e1adfee2aa39ae83fdcef87e946a7f90ec828375bb1f5b651bd1a79baf4bd.json",
-      "contentSha256": "95673cb6eda7ffc7509e7c403b2cc6269569e0f02024ccecfab3b9a02d2746ac"
     }
   ]
 }
