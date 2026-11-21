@@ -1,24 +1,11 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T16:24:06.517Z",
+  "generatedAt": "2026-11-21T16:32:38.321Z",
   "lastSuccessfulCheck": "2026-11-21T13:33:13.842Z",
   "monitoredArticles": 69,
-  "pendingCount": 9,
+  "pendingCount": 8,
   "pendingReviews": [
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5189770922046338568",
-      "title": "AI Assisted Research #5 — Can AI Help Us Discover New Physics? From Ideas to Equations",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/ai-assisted-research-5-can-ai-help-us.html",
-      "published": "2026-11-10T11:42:38.051-06:00",
-      "updated": "2026-11-19T21:29:58.948-06:00",
-      "fingerprint": "7a6dfa5a05a7474d47e28371caa7fe7bcaf5dd5e70625a8fd00f5d860bfe9e15",
-      "classification": "CHANGED",
-      "status": "PENDING",
-      "detectedAt": "2026-11-20T13:33:06.972Z",
-      "contentPath": "articles/5189770922046338568/7a6dfa5a05a7474d47e28371caa7fe7bcaf5dd5e70625a8fd00f5d860bfe9e15.json",
-      "contentSha256": "e0c4346d60cc03e747d5007077a6e6368ba758732da886d14449bb0c80d7bfa9"
-    },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-6931318398696592287",
       "title": "Research Journal #37 — How We Checked the Gravity of a Straight Particle Beam",
