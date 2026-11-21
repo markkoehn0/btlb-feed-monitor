@@ -1,24 +1,11 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T16:17:48.707Z",
+  "generatedAt": "2026-11-21T16:19:27.535Z",
   "lastSuccessfulCheck": "2026-11-21T13:33:13.842Z",
   "monitoredArticles": 69,
-  "pendingCount": 14,
+  "pendingCount": 13,
   "pendingReviews": [
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5864131380684846248",
-      "title": "Research Journal #36 — When the Physics Pushes Back: New Investigations in WC and WD",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-journal-36-when-physics-pushes.html",
-      "published": "2026-11-14T10:17:12.134-06:00",
-      "updated": "2026-11-14T10:17:12.134-06:00",
-      "fingerprint": "c7313fbea5329aee02b453c429271e093b12a9c0ad57a15fe101318e785a7105",
-      "classification": "NEW",
-      "status": "PENDING",
-      "detectedAt": "2026-11-15T13:33:07.773Z",
-      "contentPath": "articles/5864131380684846248/c7313fbea5329aee02b453c429271e093b12a9c0ad57a15fe101318e785a7105.json",
-      "contentSha256": "5a1b3b88148da4290fd9caf5b0fb7e9e7906120249b0dba367ae3b354c656ea8"
-    },
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-4874445770275123849",
       "title": "Research Explained #25 — When the Math Works but the Physics Doesn't",
