@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T16:36:36.551Z",
+  "generatedAt": "2026-11-21T16:37:45.334Z",
   "lastSuccessfulCheck": "2026-11-21T13:33:13.842Z",
   "monitoredArticles": 69,
-  "pendingCount": 5,
+  "pendingCount": 4,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-6931318398696592287",
@@ -57,19 +57,6 @@
       "detectedAt": "2026-11-21T13:33:07.670Z",
       "contentPath": "articles/1098558553575977914/4593022517a05866add604b34070e785652244de871b148c12cb044103dae480.json",
       "contentSha256": "545154c6c3deab237809b67eb0e5f69d55cfa5e37f904e43758fac613256f74f"
-    },
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-4874445770275123849",
-      "title": "Research Explained #25 — When the Math Works but the Physics Doesn't",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-25-when-math-works.html",
-      "published": "2026-11-15T18:05:50.562-06:00",
-      "updated": "2026-11-20T18:16:04.282-06:00",
-      "fingerprint": "64635706a673dad6dcba237179ff4547ae997caae7be6435c8dcb5aaa1b71c6f",
-      "classification": "CHANGED",
-      "status": "PENDING",
-      "detectedAt": "2026-11-21T13:33:07.932Z",
-      "contentPath": "articles/4874445770275123849/64635706a673dad6dcba237179ff4547ae997caae7be6435c8dcb5aaa1b71c6f.json",
-      "contentSha256": "929a99f9c4f4b736293ddec5ff1fb38380b66b3197675d83a6726f437ad78ed9"
     }
   ]
 }
