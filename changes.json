@@ -1,10 +1,10 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T16:37:45.334Z",
+  "generatedAt": "2026-11-21T16:40:06.623Z",
   "lastSuccessfulCheck": "2026-11-21T13:33:13.842Z",
   "monitoredArticles": 69,
-  "pendingCount": 4,
+  "pendingCount": 3,
   "pendingReviews": [
     {
       "id": "tag:blogger.com,1999:blog-5793283855177519383.post-6931318398696592287",
@@ -44,19 +44,6 @@
       "detectedAt": "2026-11-21T13:33:07.616Z",
       "contentPath": "articles/3629935023911839508/54a5f1b23f1efd1ee8f456f643e173f155f09beb6eadd5f06f2c4e03212c9063.json",
       "contentSha256": "dcfde52881f52e2dc9d10f56685e3b0cf1ff3b565f3711b69ab945aaecad43f2"
-    },
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-1098558553575977914",
-      "title": "Research Explained #26 — Can Two Devices Create a Shortcut Through Spacetime?",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-explained-26-can-two-devices.html",
-      "published": "2026-11-16T14:16:52.349-06:00",
-      "updated": "2026-11-20T18:23:35.225-06:00",
-      "fingerprint": "4593022517a05866add604b34070e785652244de871b148c12cb044103dae480",
-      "classification": "CHANGED",
-      "status": "PENDING",
-      "detectedAt": "2026-11-21T13:33:07.670Z",
-      "contentPath": "articles/1098558553575977914/4593022517a05866add604b34070e785652244de871b148c12cb044103dae480.json",
-      "contentSha256": "545154c6c3deab237809b67eb0e5f69d55cfa5e37f904e43758fac613256f74f"
     }
   ]
 }
