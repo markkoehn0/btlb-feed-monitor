@@ -1,23 +1,9 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T00:16:38.993Z",
+  "generatedAt": "2026-11-23T00:19:17.959Z",
   "lastSuccessfulCheck": "2026-11-22T13:33:07.749Z",
   "monitoredArticles": 69,
-  "pendingCount": 1,
-  "pendingReviews": [
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-6931318398696592287",
-      "title": "Research Journal #37 — How We Checked the Gravity of a Straight Particle Beam",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-journal-37-how-we-checked.html",
-      "published": "2026-11-20T22:56:44.253-06:00",
-      "updated": "2026-11-21T11:12:33.746-06:00",
-      "fingerprint": "864df3ede0922b16a8a768d270c88c91ada6564ab157e71a197ff07f5b322e03",
-      "classification": "CHANGED",
-      "status": "PENDING",
-      "detectedAt": "2026-11-22T13:33:06.688Z",
-      "contentPath": "articles/6931318398696592287/864df3ede0922b16a8a768d270c88c91ada6564ab157e71a197ff07f5b322e03.json",
-      "contentSha256": "e0d60d962a51e185be48e9b46bdbdcaf0c1ab2676eba500c7295cbe6f7d5c9b9"
-    }
-  ]
+  "pendingCount": 0,
+  "pendingReviews": []
 }
