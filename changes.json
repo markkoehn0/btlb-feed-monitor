@@ -1,9 +1,23 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T13:33:08.180Z",
-  "lastSuccessfulCheck": "2026-11-23T13:33:07.501Z",
-  "monitoredArticles": 69,
-  "pendingCount": 0,
-  "pendingReviews": []
+  "generatedAt": "2026-11-24T13:33:08.864Z",
+  "lastSuccessfulCheck": "2026-11-24T13:33:08.061Z",
+  "monitoredArticles": 70,
+  "pendingCount": 1,
+  "pendingReviews": [
+    {
+      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-5821337656101333159",
+      "title": "Research Journal #38 — How We Verified BTLB-SIM on macOS and Windows",
+      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-journal-38-how-we-verified.html",
+      "published": "2026-11-23T14:16:09.664-06:00",
+      "updated": "2026-11-23T14:16:09.665-06:00",
+      "fingerprint": "0086a06e49e2e05b696c7397ba62bff28542bb134ffcfd4a1d7c612dd9a0bebe",
+      "classification": "NEW",
+      "status": "PENDING",
+      "detectedAt": "2026-11-24T13:33:07.175Z",
+      "contentPath": "articles/5821337656101333159/0086a06e49e2e05b696c7397ba62bff28542bb134ffcfd4a1d7c612dd9a0bebe.json",
+      "contentSha256": "6144718283933fe6fd0e94fa8825f2a113af7b10690fa5b475a1dbfff5f344a7"
+    }
+  ]
 }
