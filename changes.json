@@ -1,23 +1,9 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T13:33:06.931Z",
+  "generatedAt": "2026-11-25T19:06:10.820Z",
   "lastSuccessfulCheck": "2026-11-25T13:33:06.384Z",
   "monitoredArticles": 71,
-  "pendingCount": 1,
-  "pendingReviews": [
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-3719485846904625456",
-      "title": "Research Journal #39 -- What We Found When We Completed the macOS Stress Tests",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-journal-39-what-we-found-when.html",
-      "published": "2026-11-24T13:51:56.411-06:00",
-      "updated": "2026-11-24T13:51:56.411-06:00",
-      "fingerprint": "11e244da8cb9131ac9795893897179d3fbd8e8688533586ddfeef0ba8870c361",
-      "classification": "NEW",
-      "status": "PENDING",
-      "detectedAt": "2026-11-25T13:33:05.972Z",
-      "contentPath": "articles/3719485846904625456/11e244da8cb9131ac9795893897179d3fbd8e8688533586ddfeef0ba8870c361.json",
-      "contentSha256": "3cf49d23e155e7d23df82ede2e5abd952d139ff16c98edfe1d83c24697c2ef02"
-    }
-  ]
+  "pendingCount": 0,
+  "pendingReviews": []
 }
