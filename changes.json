@@ -1,23 +1,9 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T13:33:13.081Z",
+  "generatedAt": "2026-11-27T23:18:38.218Z",
   "lastSuccessfulCheck": "2026-11-27T13:33:11.833Z",
   "monitoredArticles": 72,
-  "pendingCount": 1,
-  "pendingReviews": [
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-7226944776843245219",
-      "title": "Research Journal #40 — What the First Windows Stress Tests Could Tell Us",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-journal-40-what-first-windows.html",
-      "published": "2026-11-26T20:51:23.820-06:00",
-      "updated": "2026-11-26T21:10:31.794-06:00",
-      "fingerprint": "a080806b7c2fa15d7b83ceb02151845730aa3995af11e1ba78abdd44bf82f15d",
-      "classification": "NEW",
-      "status": "PENDING",
-      "detectedAt": "2026-11-27T13:33:08.229Z",
-      "contentPath": "articles/7226944776843245219/a080806b7c2fa15d7b83ceb02151845730aa3995af11e1ba78abdd44bf82f15d.json",
-      "contentSha256": "251aca195b5d9681810e78fb4fbd25422217aa3091708b0c3e7f403c9711a401"
-    }
-  ]
+  "pendingCount": 0,
+  "pendingReviews": []
 }
