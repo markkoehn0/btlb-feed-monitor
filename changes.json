@@ -1,23 +1,9 @@
 {
   "service": "BTLB Feed Monitor",
   "schemaVersion": 1,
-  "generatedAt": "2026-11-28T13:33:06.984Z",
+  "generatedAt": "2026-11-28T17:07:38.058Z",
   "lastSuccessfulCheck": "2026-11-28T13:33:06.488Z",
   "monitoredArticles": 73,
-  "pendingCount": 1,
-  "pendingReviews": [
-    {
-      "id": "tag:blogger.com,1999:blog-5793283855177519383.post-4487094765001783072",
-      "title": "Research Journal #41 — What It Would Take to Fix the Eight Failures",
-      "url": "https://www.beyond-the-light-barrier.com/2026/11/research-journal-41-what-it-would-take.html",
-      "published": "2026-11-27T15:05:49.808-06:00",
-      "updated": "2026-11-27T15:05:49.808-06:00",
-      "fingerprint": "60ed86b0520be436930447fceaa6de398971efed127cfe3ec69528970b2884a0",
-      "classification": "NEW",
-      "status": "PENDING",
-      "detectedAt": "2026-11-28T13:33:06.096Z",
-      "contentPath": "articles/4487094765001783072/60ed86b0520be436930447fceaa6de398971efed127cfe3ec69528970b2884a0.json",
-      "contentSha256": "eb7e621c54a5c3efb6e5103aff28dc0c726b6d60b383f2d2c0f0ff0bf80c5e46"
-    }
-  ]
+  "pendingCount": 0,
+  "pendingReviews": []
 }
